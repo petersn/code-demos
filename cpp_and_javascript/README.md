@@ -1,10 +1,10 @@
-TL;DR
------
-Run: `make` then `./cpp_launcher code.js`.
-
 Dependencies
 ------------
 You'll need V8 installed, such as via `apt-get install libv8-dev`.
+
+Demo
+----
+tl;dr: `make` then `./cpp_launcher code.js`.
 
 This provides a demo of calling Javascript from C++, with the Javascript able to call back into C++.
 The file `cpp_launcher.cpp` compiles into `cpp_launcher`, which can be run on a Javascript file.
